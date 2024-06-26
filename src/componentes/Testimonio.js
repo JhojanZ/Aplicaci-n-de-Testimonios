@@ -8,8 +8,8 @@ function Testimonio(props){
                  alt='imagen 1'/>
             <div className='contenedor-texto-testimonio'>
                 <p className='nombre-testimonio'><strong>{props.nombre}</strong> en {props.pais}</p>
-                <p className='cargo-testigo'>{props.cargo} La run es imposible <strong>{props.empresa}</strong></p>
-                <p className='texto-testimonio'>idk"{props.testimonio}"</p>
+                <p className='cargo-testigo'>{props.cargo} <strong>{props.empresa}</strong></p>
+                <p className='texto-testimonio'>{props.testimonio}"</p>
             </div>
         </div>
     );
